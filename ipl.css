@@ -1,0 +1,178 @@
+.header{
+    background-color: rgba(4, 4, 131, 0.973);
+}
+.stats a{    
+    color: aliceblue;
+    padding: 10px;
+
+}
+.icons img{
+    float: right;
+}
+.trophy{
+    background: url(https://imgeng.jagran.com/images/2024/05/27/article/image/kkr-trophy-1716751638832.jpg);
+    background-size: cover;
+    padding: 150px;
+}
+h2{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: aliceblue;
+    font-size:20px;
+}
+.pic{
+    background: url(../images/new-story-helix-bg.svg) bottom left no-repeat #10172b;
+    padding-bottom: 70px;
+
+}
+.final img{
+    border: 1px dotted white;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.final img:hover{
+    opacity: 2.0;
+}
+.colouring{
+    color: #10172b;
+    text-align: center;
+}
+.roles{
+    padding: 10px;
+    text-align: center;
+}
+.Exclesive{
+    background-color: rgb(24, 24, 163);
+}
+.sizing{
+    border: 30px;
+}
+.tab{
+    border: 1px solid black;
+    width: 300px;
+    color: black;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.card .rank {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card .team-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card .team-logo img {
+    width: 50px;
+    height: 50px;
+}
+.card .team-name {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.card .stats div {
+    text-align: center;
+}
+.card .recent-form {
+    text-align: center;
+}
+.card .recent-form .form {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    border-radius: 50%;
+    line-height: 20px;
+    color: white;
+}
+.card .recent-form .form.win {
+    background-color: green;
+}
+.card .recent-form .form.loss {
+    background-color: red;
+}
+.card .recent-form .form.no-result {
+    background-color: gray;
+}
+.container {
+    text-align: center;
+    position: relative;
+}
+.top-performers {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player img {
+    height: 150px;
+    margin: 0 20px;
+}
+.player-info {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+}
+.player-info .rank {
+    font-size: 5em;
+    font-weight: bold;
+}
+.player-info .name {
+    font-size: 2em;
+    margin-top: -20px;
+}
+.player-info .stats {
+    margin-top: 10px;
+}
+.player-info .stats div {
+    display: inline-block;
+    margin: 5px 10px;
+}
+.player-info .orange-cap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: -60px;
+    background: orange;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.player-info .full-leaderboard {
+    margin-top: 20px;
+    background: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
